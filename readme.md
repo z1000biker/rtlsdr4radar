@@ -301,13 +301,14 @@ Contributions welcome! Areas of interest:
     *   Passive Radar Theory: https://en.wikipedia.org/wiki/Passive_radar
     *   PyRTLSDR Library: https://pyrtlsdr.readthedocs.io/
 ## License
-MIT License - See LICENSE file for details
+MIT License 
 ## Acknowledgments
 *   RTL-SDR developers and community
 *   PyRTLSDR library maintainers
 *   FM radio stations providing free illumination!
 ## Author
-Created by Nik Kontopoulos"
+*   **Created by Nik Kontopoulos**
+
 *Disclaimer: This project is for educational purposes. Ensure compliance with local regulations regarding RF reception and monitoring. Do not use for surveillance without proper authorization.*
 ---
 ### Quick Start Summary
@@ -323,4 +324,5 @@ python radar.py --freq 103.7 --gain auto
 ```
 **Common Mistake:** Moving during baseline collection → Restart if you moved!
 **It works! Human motion detection with a $25 USB dongle! 🎉**
+
 
