@@ -10,7 +10,7 @@ FM radio stations continuously broadcast at 88-108 MHz with high power. These si
 *   Penetrate buildings and fill indoor spaces
 *   Reflect off all surfaces: walls, furniture, human bodies
 *   Create complex interference patterns (standing waves)
-The wavelength at 103.7 MHz is approximately 2.9 meters, making it ideal for detecting human-sized objects (1.5-1.8m).
+The wavelength at 103.7 MHz is approximately 2.9 meters, making it rather good candidate for detecting human-sized objects (1.5-1.8m).
 #### 2. The Multipath Environment
 When an FM signal enters a room, it doesn't travel in a straight line. Instead:
 ```
@@ -324,6 +324,7 @@ python radar.py --freq 103.7
 ```
 **Common Mistake:** Moving during baseline collection → Restart if you moved!
 **It works! Human motion detection with a $25 USB dongle! 🎉**
+
 
 
 
