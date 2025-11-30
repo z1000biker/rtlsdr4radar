@@ -321,7 +321,8 @@ python radar.py --freq 103.7
 #    → FREEZE! Don't move for 5 seconds!
 ```
 **Common Mistake:** Moving during baseline collection → Restart if you moved!
-**It works! Human motion detection with a $25 USB dongle! 🎉**
+
+
 
 
 
