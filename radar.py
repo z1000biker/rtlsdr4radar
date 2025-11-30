@@ -54,7 +54,7 @@ class ImprovedMotionDetector:
         return motion, motion_score, baseline_variance
     def run(self):
         plt.ion()
-        fig = plt.figure(figsize=(14, 10))
+        fig = plt.figure("RTLSDR simple Radar detector",figsize=(14, 10))
         gs = fig.add_gridspec(3, 2, hspace=0.3, wspace=0.3)
         ax1 = fig.add_subplot(gs[0, :])
         ax2 = fig.add_subplot(gs[1, 0])
@@ -181,4 +181,5 @@ class ImprovedMotionDetector:
             plt.show()
 if __name__ == "__main__":
     detector = ImprovedMotionDetector()
+
     detector.run()
