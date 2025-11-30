@@ -123,8 +123,7 @@ To use commands like `rtl_test` or `rtl_fm`:
 python radar.py
 # Specify custom FM frequency
 python radar.py --freq 98.5
-# Use auto gain (recommended for RTL-SDR V4)
-python radar.py --freq 103.7 --gain auto
+
 ```
 The program will:
 1.  Initialize RTL-SDR at 103.7 MHz (hardcoded or via arg)
@@ -219,7 +218,6 @@ def _smooth(self, values, window=5):  # Moving average window (default: 5)
 | Parameter | Default | Effect |
 | :--- | :--- | :--- |
 | `--freq` | 103.7 | FM station frequency (MHz) |
-| `--gain` | auto | RF gain (0-49 dB or 'auto') |
 | Detection threshold | 1.5 | Motion score needed (lower = more sensitive) |
 | Smoothing window | 5 | Samples averaged (higher = smoother) |
 | Consecutive detections | 3 | Confirmations needed before alarm |
@@ -324,6 +322,7 @@ python radar.py --freq 103.7
 ```
 **Common Mistake:** Moving during baseline collection → Restart if you moved!
 **It works! Human motion detection with a $25 USB dongle! 🎉**
+
 
 
 
