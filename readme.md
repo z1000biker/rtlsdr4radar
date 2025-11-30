@@ -66,16 +66,16 @@ This system works with one antenna because:
 *   Wavelength advantage - 3-meter waves interact strongly with human-sized objects
 *Think of it like dropping a pebble in a pond - you don't need to see the pebble, you just need to detect the ripples.*
 ### Mathematical Foundation
-**Doppler Shift from Human Motion:**
+*  **Doppler Shift from Human Motion:**
 `f_doppler = (2 × v × f_carrier) / c`
 For v = 1 m/s (walking), f = 103.7 MHz:
 `f_doppler = (2 × 1 × 103.7×10⁶) / 3×10⁸ ≈ 0.69 Hz`
-**Signal Model:**
+*  **Signal Model:**
 Received Signal = Direct + Σ(Reflections)
 `s(t) = A₀·e^(j2πft) + Σ Aᵢ·e^(j2πf(t-τᵢ(t)))`
                       i=1
 Where τᵢ(t) changes with motion
-**Phase Sensitivity:**
+*  **Phase Sensitivity:**
 For a target at range R:
 `Phase = 4πR / λ`
 A 1 cm movement creates:
@@ -322,6 +322,7 @@ python radar.py --freq 103.7
 ```
 **Common Mistake:** Moving during baseline collection → Restart if you moved!
 **It works! Human motion detection with a $25 USB dongle! 🎉**
+
 
 
 
