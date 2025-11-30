@@ -307,7 +307,7 @@ MIT License - See LICENSE file for details
 *   PyRTLSDR library maintainers
 *   FM radio stations providing free illumination!
 ## Author
-Created by z1000biker
+Created by Nik Kontopoulos"
 *Disclaimer: This project is for educational purposes. Ensure compliance with local regulations regarding RF reception and monitoring. Do not use for surveillance without proper authorization.*
 ---
 ### Quick Start Summary
@@ -323,3 +323,4 @@ python radar.py --freq 103.7 --gain auto
 ```
 **Common Mistake:** Moving during baseline collection → Restart if you moved!
 **It works! Human motion detection with a $25 USB dongle! 🎉**
+
