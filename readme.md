@@ -318,11 +318,12 @@ pip install numpy scipy matplotlib pyrtlsdr
 # 2. (Optional) Find strong FM station using SDR# or similar GUI tool
 #    Or just try known local stations (e.g., 103.7, 98.5)
 # 3. Run detector
-python radar.py --freq 103.7 --gain auto
+python radar.py --freq 103.7
 # 4. IMPORTANT: When you see "Collecting baseline..."
 #    → FREEZE! Don't move for 5 seconds!
 ```
 **Common Mistake:** Moving during baseline collection → Restart if you moved!
 **It works! Human motion detection with a $25 USB dongle! 🎉**
+
 
 
