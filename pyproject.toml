@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rtlsdr4radar"
+version = "1.1.0"
+authors = [
+  { name="z1000biker", email="z1000biker@hotmail.com" },
+]
+description = "A passive radar motion detection system using RTL-SDR and FM radio signals."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering :: Physics",
+    "Topic :: Communications :: Ham Radio",
+]
+dependencies = [
+    "numpy",
+    "scipy",
+    "matplotlib",
+    "pyrtlsdr",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/z1000biker/rtlsdr4radar"
+"Bug Tracker" = "https://github.com/z1000biker/rtlsdr4radar/issues"
