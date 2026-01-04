@@ -9,6 +9,23 @@ A passive motion detection system using FM radio signals and a single RTL-SDR do
 ## 🌟 Key Achievement
 Human motion detection with a **single antenna setup** - typically considered extremely difficult in passive radar applications.
 
+## Overview
+This project explores real-time signal acquisition and processing using RTL-SDR
+hardware for radar-like applications.
+
+The focus is on:
+- Real-time data ingestion
+- Signal processing pipelines
+- Performance constraints
+- Hardware–software interaction
+
+## Why this matters for software engineers
+Although hardware-assisted, this project demonstrates:
+- Streaming data pipelines
+- Real-time constraints
+- Low-level performance trade-offs
+- System reliability considerations
+
 ## 🚀 Quick Start (Windows/Linux/macOS)
 
 ### 1. Installation
@@ -355,6 +372,13 @@ pip install numpy scipy matplotlib pyrtlsdr
 python radar.py --freq 103.7 --gain auto
 # 4. IMPORTANT: When you see "Collecting baseline..."
 #    → FREEZE! Don't move for 5 seconds!
+
 ```
 **Common Mistake:** Moving during baseline collection → Restart if you moved!
 **It works! Human motion detection with a $25 USB dongle! 🎉**
+
+## Possible Extensions
+- Web-based visualization dashboard
+- Backend API for processed data
+- Cloud-based processing pipeline
+- 
