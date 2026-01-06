@@ -1,6 +1,7 @@
 # RTLSDR Passive Radar 📡🛰️
 
 A passive motion detection system using FM radio signals and a single RTL-SDR dongle. This project detects human motion by analyzing phase and amplitude variations in reflected FM broadcasts, turning a $25 USB dongle into a sophisticated radar sensor.
+This project reflects my interest in hardware-adjacent systems, where timing, signal integrity, and data pipelines matter. The same principles I apply in backend and crypto systems — determinism, observability, and explicit state handling — apply here at the RF and device boundary.
 
 ![Python](https://img.shields.io/badge/python-3.8%2B-blue)
 ![SDR](https://img.shields.io/badge/SDR-RTL--SDR-orange)
